@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shopify accessibility apps: 20+ widgets, $3.99 to $499.99 a month, and a thin middle · Category Teardowns</title>
+<meta name="description" content="A cited teardown of EAA and WCAG accessibility apps on the Shopify App Store: ratings, pricing tiers, claim risk after the FTC&#x27;s accessiBe order, and gaps.">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Shopify accessibility apps: 20+ widgets, $3.99 to $499.99 a month, and a thin middle">
+<meta property="og:description" content="A cited teardown of EAA and WCAG accessibility apps on the Shopify App Store: ratings, pricing tiers, claim risk after the FTC&#x27;s accessiBe order, and gaps.">
+<meta property="og:url" content="https://jacobrostom1-ctrl.github.io/category-teardowns/teardowns/shopify-accessibility/">
+<meta property="og:image" content="https://jacobrostom1-ctrl.github.io/category-teardowns/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+@font-face{font-family:'Inter';font-style:normal;font-weight:400 600;font-display:swap;src:url(../../fonts/Inter-var.woff2) format('woff2')}
+@font-face{font-family:'Newsreader';font-style:normal;font-weight:400 700;font-display:swap;src:url(../../fonts/Newsreader-var.woff2) format('woff2')}
+:root{--ink:#1a1a1a;--mut:#5f5b55;--paper:#faf8f4;--rule:#e4dfd6;--acc:#9a3b1f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.w{max-width:880px;margin:0 auto;padding:0 24px}
+h1,h2,h3,h4{font-family:Newsreader,Georgia,serif;font-weight:600;letter-spacing:-.01em;margin:0}
+a{color:var(--acc)}nav{display:flex;justify-content:space-between;align-items:center;padding:28px 0;font-size:.95rem}
+nav b{font-family:Newsreader,Georgia,serif;font-size:1.25rem;font-weight:600}nav b a{color:var(--ink);text-decoration:none;margin:0}nav div a{color:var(--ink);text-decoration:none;margin-left:22px}nav a[aria-current]{color:var(--acc)}
+.k{font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(--acc)}
+.meta{color:var(--mut);font-size:.9rem}
+.head{padding:56px 0 36px;border-bottom:1px solid var(--rule)}
+.head h1{font-size:clamp(2.1rem,5vw,3.2rem);line-height:1.1;max-width:20ch;margin:12px 0 16px}
+.head .dek{font-size:1.2rem;color:var(--mut);max-width:620px;margin:0}
+.art{max-width:680px;padding:40px 0 56px;font-family:Newsreader,Georgia,serif;font-size:1.2rem;line-height:1.6}
+.art p,.art ul,.art ol,.art blockquote,.art table,.art pre{margin:0 0 1.1em}
+.art h2{font-size:1.65rem;line-height:1.2;margin:1.8em 0 .5em}.art h3{font-size:1.3rem;margin:1.5em 0 .4em}.art h4{font-size:1.1rem;margin:1.3em 0 .3em}
+.art ul,.art ol{padding-left:1.3em}.art li{margin:.35em 0}
+.art blockquote{margin-left:0;padding-left:20px;border-left:2px solid var(--acc);color:var(--mut);font-style:italic}
+.art hr{border:0;border-top:1px solid var(--rule);margin:2em 0}
+.art code{font:.85em ui-monospace,SFMono-Regular,Menlo,monospace;background:#fff;border:1px solid var(--rule);padding:1px 5px}
+.art pre{background:#fff;border:1px solid var(--rule);padding:16px;overflow:auto}.art pre code{border:0;padding:0}
+.art table{border-collapse:collapse;width:100%;font:.9rem/1.5 Inter,system-ui,sans-serif;display:block;overflow-x:auto}
+.art th,.art td{text-align:left;padding:8px 12px 8px 0;border-bottom:1px solid var(--rule);vertical-align:top}.art th{border-bottom:1px solid var(--ink);font-weight:600}
+.list{list-style:none;padding:0;margin:0 0 56px;max-width:720px}
+.list li{padding:24px 0;border-bottom:1px solid var(--rule)}.list a{color:var(--ink);text-decoration:none}.list a:hover h2{color:var(--acc)}
+.list h2{font-size:1.55rem;line-height:1.25;margin:6px 0 8px}.list p{margin:0;color:var(--mut)}
+.empty{padding:28px 0;border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);max-width:720px;margin-bottom:56px}.empty h2{font-size:1.5rem;margin-bottom:6px}.empty p{margin:0;color:var(--mut)}
+input{font:inherit;padding:11px 12px;border:1px solid var(--rule);background:#fff;border-radius:2px;width:100%}
+input:focus{outline:2px solid var(--ink);outline-offset:-1px}
+label{font-size:.85rem;color:var(--mut)}
+.btn{display:inline-block;background:var(--ink);color:var(--paper);text-decoration:none;font:inherit;font-weight:500;cursor:pointer;border-radius:2px}.btn:hover{background:var(--acc)}
+.su{max-width:720px}.su-h{font-family:Newsreader,Georgia,serif;font-weight:600;font-size:1.6rem;line-height:1.2;margin:0 0 6px}.su-m{color:var(--mut);margin:0 0 18px;font-size:1rem}
+.su form{display:grid;grid-template-columns:1fr 1fr auto;grid-template-rows:auto auto;grid-auto-flow:column;gap:6px 12px;align-items:end}
+.su form>label{grid-row:1}.su form>input:not([type=hidden]){grid-row:2}.su .btn{grid-row:2;padding:11px 22px;border:1px solid var(--ink);white-space:nowrap}.su .btn:hover{border-color:var(--acc)}
+.hp{display:none}.su-box{background:#fff;border:1px solid var(--rule);border-top:2px solid var(--ink);padding:32px;margin-bottom:0}.closing{padding:28px 0 64px}.closing p{margin:0}
+footer{padding:40px 0 60px;color:var(--mut);font-size:.9rem;border-top:1px solid var(--rule)}
+@media(max-width:720px){nav div a{display:none}nav div a.keep{display:inline}.head{padding:36px 0 28px}.art{font-size:1.12rem}
+.su form{grid-template-columns:1fr;grid-auto-flow:row;grid-template-rows:none}.su form>label,.su form>input:not([type=hidden]),.su .btn{grid-row:auto}.su form>label:not(:first-of-type){margin-top:8px}.su .btn{margin-top:10px;width:100%}.su-box{padding:22px}}
+</style></head><body>
+<div class="w"><nav><b><a href="../../">Category Teardowns</a></b><div><a href="../../#offers">Pricing</a><a href="../../#sample">Sample</a><a href="../../#faq">FAQ</a><a class="keep" href="../../teardowns/" >Teardowns</a></div></nav></div>
+<main class="w">
+<!-- MAIN -->
+<header class="head"><div class="k">Teardown</div><h1>Shopify accessibility apps: 20+ widgets, $3.99 to $499.99 a month, and a thin middle</h1><p class="dek">A cited teardown of EAA and WCAG accessibility apps on the Shopify App Store: ratings, pricing tiers, claim risk after the FTC&#x27;s accessiBe order, and gaps.</p></header>
+<article class="art">
+<p><em>Data collected Oct 19, 2026 (PT). Ratings, prices and legal texts were all loaded directly from the App Store listings and primary sources. Anything marked "estimate" is our judgement. Not legal advice.</em></p>
+<h2>Why this category exploded</h2>
+<p>The European Accessibility Act (Directive 2019/882) covers e-commerce services provided to consumers after 28 June 2025 (<a href="https://www.legislation.gov.uk/eudr/2019/882/article/2">Art. 2</a>), and microenterprises providing services are exempt (<a href="https://www.legislation.gov.uk/eudr/2019/882/article/4">Art. 4(5)</a>). Germany's implementing law, the <a href="https://www.gesetze-im-internet.de/bfsg/<strong>1.html">BFSG</a>, applies to e-commerce services for consumers from the same date. <a href="https://www.gesetze-im-internet.de/bfsg/</strong>3.html">§ 3(3)</a> exempts microenterprises providing services, and <a href="https://www.gesetze-im-internet.de/bfsg/__2.html">§ 2</a> defines them as fewer than 10 employees with turnover or balance sheet of at most €2 million. Shopify app developers moved fast. Nearly every listing in the category now says "EAA" in its tagline.</p>
+<p>A search for <a href="https://apps.shopify.com/search?q=accessibility">"accessibility"</a> returns 20+ accessibility apps. Avada Accessibility leads with 5.0 stars from 326 reviews. EC ADA Accessibility Widget has 4.9 from 97. Then comes a long tail of apps with 5 to 73 reviews, mostly rated 4.8 to 5.0.</p>
+<h2>What it costs</h2>
+<p>Prices run from $3.99 to $499.99 a month:</p>
+<ul><li><a href="https://apps.shopify.com/accessibility-assistant">Accessibility Assistant</a>: $3.99, $6.99, or $9.99 a month. The free plan is for developer stores only.</li><li><a href="https://apps.shopify.com/access-pro">EC ADA Accessibility Widget</a>: free (2,000 impressions), then $4.99, $9, or $99 a month. The $99 tier adds code-level fixes and a human audit.</li><li><a href="https://apps.shopify.com/accessease">Ez Accessibility Widget</a>: free up to 5,000 visitors, then $4.99 (100,000 visitors) or $9.99 (unlimited).</li><li><a href="https://apps.shopify.com/sea-accessibility-ada-wcag">Avada</a>: free (1,000 impressions), then $9 (3,000), $14 (10,000), or $19 (unlimited). Yearly billing saves about 17%.</li><li><a href="https://apps.shopify.com/accessibility-enabler-increase-sales-with-disability-friendly-site">Accessibility Enabler AW</a>: $12, $36, or $72 a month for 30,000, 100,000, or 200,000 page views, auto-charged above the limit.</li><li><a href="https://apps.shopify.com/accessibilityspark">Accessibility Spark</a>: $99.99 (5,000 sessions), $209.99 (30,000), or $499.99 (100,000).</li><li><a href="https://apps.shopify.com/patrol">Patrol</a>: a free audit and monitoring plan, then from $200 a month ($2,000 a year) for automated fixes written into the theme source.</li></ul>
+<p>That gives three clusters. Widgets cost $3.99 to $19. Session-priced compliance plans run $99.99 to $499.99. Code remediation starts at $99 (EC Premium) or $200 (Patrol). Between $19 and $99 the only plans are Accessibility Enabler's page-view tiers ($36 and $72), and those are still a widget.</p>
+<h2>The claim problem</h2>
+<p>On April 22, 2025 the <a href="https://www.ftc.gov/news-events/news/press-releases/2025/04/ftc-approves-final-order-requiring-accessibe-pay-1-million">FTC approved a final order</a> requiring accessiBe to pay $1 million. The order bars accessiBe from claiming its automated products can make any website WCAG-compliant, or keep it compliant over time, unless it has evidence to support the claim. According to the FTC, its January 2025 complaint also alleged that accessiBe formatted third-party articles and reviews to look like independent opinions.</p>
+<p>Some Shopify listings in this category use lines like "litigation-proof" (Avada, EC) and "Protects against lawsuits" (Accessibility Spark). We make no legal judgement about these apps. We only point out that this is the kind of claim the FTC order dealt with, and that anyone building here should write their listing with that in mind.</p>
+<h2>A small detail that matters</h2>
+<p>Avada's own <a href="https://docs.avada.io/avada-accessibility-widget-ada/plans/plans-and-pricing/">plan docs</a> say that when a store runs out of monthly impressions, the widget stops showing until the cycle resets or the merchant upgrades. For a tool sold on compliance, coverage that switches off is a real weakness, and a competitor with flat, uncapped pricing has an easy contrast to draw.</p>
+<h2>Where the gaps are</h2>
+<ol><li><strong>Real fixes in the $19 to $99 band.</strong> Only two apps sell code-level changes, and both start at $99 or more. A cheaper audit with guided theme fixes would sit alone in the middle (estimate).</li><li><strong>Honest claims as a feature.</strong> A listing that says what the tool does not do could earn trust in a category where many promise compliance (estimate, not legal advice).</li><li><strong>No caps.</strong> Impression limits that hide the widget invite a "never switches off" pitch.</li><li><strong>Not stars.</strong> Ratings cluster at 4.8 to 5.0, so they won't separate a new app.</li></ol>
+<h2>What we'd do</h2>
+<p>Don't launch another overlay widget under $20. The floor is $3.99 and the leader charges $19 for unlimited use.</p>
+<p>If you build here, lead with code-level fixes and monitoring, priced between $19 and $99, and write every claim to the standard in the FTC order.</p>
+<h2>What we couldn't verify</h2>
+<p>We checked the law's dates and scope, not whether overlay widgets satisfy the EAA or BFSG. That's a legal question. The directive text comes from legislation.gov.uk's archived copy because EUR-Lex blocked automated page loads.</p>
+</article>
+<!-- /MAIN -->
+<div class="su su-box" id="signup"><h2 class="su-h">Get a free 1-page preview of your category</h2><p class="su-m">Tell us your app or category. We'll email you a free one-page preview of who you're up against, with sources.</p>
+<!-- FormSubmit endpoint (needs one-time activation from the categoryteardowns inbox) -->
+<form action="https://formsubmit.co/categoryteardowns@mail.grokbot.com" method="POST">
+<input type="hidden" name="_subject" value="Free category preview request"><input type="hidden" name="_captcha" value="false"><input type="hidden" name="_template" value="table"><input type="hidden" name="_next" value="https://jacobrostom1-ctrl.github.io/category-teardowns/thanks.html"><input type="hidden" name="source" value="teardown-shopify-accessibility">
+<div class="hp" aria-hidden="true"><label for="su-honey">Leave this field empty</label><input type="text" id="su-honey" name="_honey" style="display:none" tabindex="-1" autocomplete="off"></div>
+<label for="su-email">Email</label><input type="email" id="su-email" name="email" required autocomplete="email" placeholder="you@example.com">
+<label for="su-app">Your app or category</label><input type="text" id="su-app" name="app_or_category" placeholder="e.g. B2B pricing apps">
+<button class="btn" type="submit">Send my free preview</button>
+</form></div>
+<div class="art closing"><p>Want the full version? The paid <a href="../../#offers"><strong>$99 Category Teardown</strong></a> covers every competitor in your category: pricing tiers, ratings, positioning, gaps, and recommendations, all cited.</p></div>
+</main>
+<footer><div class="w">Category Teardowns · <a href="mailto:categoryteardowns@mail.grokbot.com">categoryteardowns@mail.grokbot.com</a> · <!-- STRIPE_PORTAL_LINK: TEST-mode URL, swap to live portal URL at Stripe go-live --><a class="manage" href="https://billing.stripe.com/p/login/test_6oUdR9fLp1CY3wdan65ZC00" rel="noopener">Cancel or manage subscription</a></div></footer>
+</body></html>
